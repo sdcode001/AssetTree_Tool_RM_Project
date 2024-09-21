@@ -1,0 +1,53 @@
+.node-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e9f0f8; 
+    border: 2px solid #cfd7e4; 
+    border-radius: 10px; 
+    padding: 4px 6px; 
+    margin-bottom: 10px; 
+    box-shadow: 0 2px 4px #00000014; 
+    transition: box-shadow 0.2s ease; 
+}
+
+.node-id {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 6px; 
+    padding: 3px 0; 
+    width: 100%; 
+    overflow: hidden; 
+    gap: 7px;
+}
+
+.node-id > article {
+    font-weight: bold;
+    font-size: small;
+    color: #374151;
+}
+
+.node-id:last-child {
+    margin-bottom: 0; 
+}
+
+.node-id p {
+    margin: 0;
+    font-size: 13px;
+    color: #374151; 
+    font-weight: 500; 
+    flex: 1; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.node-id span p {
+    color: #1f2937; 
+    font-weight: 400; 
+    text-align: right; 
+    flex: 1; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}

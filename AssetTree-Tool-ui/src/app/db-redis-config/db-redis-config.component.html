@@ -1,0 +1,58 @@
+<div (click)="onCancelClicked()" class="backdrop"></div>
+
+<dialog open>
+  <form (ngSubmit)="handelSubmit()">
+    <div class="input-card">
+        <div class="db-input">
+          <h2>Database Config Input</h2>
+          <p>
+            <label for="host_ip">HOST IP</label>
+            <input type="text" id="host_ip" name="host_ip" placeholder="Host Ip" [(ngModel)]="HOST_IP"/>
+          </p>
+          
+          <p>
+            <label for="port">PORT</label>
+            <input type="text" id="port" name="port" placeholder="Port" [(ngModel)]="PORT"/>
+          </p>
+          
+          <p>
+            <label for="database">DATABASE NAME</label>
+            <input type="text" id="database" name="database" placeholder="Database Name" [(ngModel)]="DATABASE"/>
+          </p>
+
+          <p>
+            <label for="username">USERNAME</label>
+            <input type="text" id="username" name="username" placeholder="Username" [(ngModel)]="USERNAME"/>
+          </p>
+
+          <p>
+            <label for="password">PASSWORD</label>
+            <input type="text" id="password" name="password" placeholder="Password" [(ngModel)]="PASSWORD"/>
+          </p>     
+        </div>
+    
+        <div class="redis-input">
+          <h2>Redis Config Input</h2>
+            <p>
+              <label for="redis_server_ip">REDIS SERVER IP</label>
+              <input type="text" id="redis_server_ip" name="redis_server_ip" placeholder="Redis Server Ip" [(ngModel)]="REDIS_SERVER_IP"/>
+            </p>
+            
+            <p>
+              <label for="redis_server_ip">REDIS SERVER PORT</label>
+              <input type="text" id="redis_server_port" name="redis_server_port" placeholder="Redis Server Port" [(ngModel)]="REDIS_SERVER_PORT"/>
+            </p>
+            
+            <p>
+              <label for="output_queue_name">OUTPUT QUEUE NAME</label>
+              <input type="text" id="output_queue_name" name="output_queue_name" placeholder="Output Queue Name" [(ngModel)]="OUTPUT_QUEUE_NAME"/>
+            </p>
+        </div>
+    </div>
+    
+    <p class="actions">
+      <button (click)="onCancelClicked()" type="button">Cancel</button>
+      <button type="submit">Save</button>
+    </p>
+  </form>
+</dialog>

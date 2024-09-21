@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\handler\\getassettreehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:handler\\getassettreehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\controllers\\assettreecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:controllers\\assettreecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\controllers\\assetdetailvaluecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:controllers\\assetdetailvaluecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\controllers\\assetdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:controllers\\assetdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\handler\\getassetdetailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:handler\\getassetdetailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\handler\\setassetdetailvaluehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:handler\\setassetdetailvaluehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\models\\tagvalueinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:models\\tagvalueinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|d:\\assettree-tool\\assettree-tool-webapi\\command\\setassetdetailvaluecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{353F0233-C5FB-4BBB-BD8A-9634C526245D}|AssetTree-Tool.csproj|solutionrelative:command\\setassetdetailvaluecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAssetTreeHandler.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Handler\\GetAssetTreeHandler.cs",
+              "RelativeDocumentMoniker": "Handler\\GetAssetTreeHandler.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Handler\\GetAssetTreeHandler.cs",
+              "RelativeToolTip": "Handler\\GetAssetTreeHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:24:10.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssetDetailValueController.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Controllers\\AssetDetailValueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AssetDetailValueController.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Controllers\\AssetDetailValueController.cs",
+              "RelativeToolTip": "Controllers\\AssetDetailValueController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:23:57.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetDetailController.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Controllers\\AssetDetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AssetDetailController.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Controllers\\AssetDetailController.cs",
+              "RelativeToolTip": "Controllers\\AssetDetailController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:23:46.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAssetDetailHandler.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Handler\\GetAssetDetailHandler.cs",
+              "RelativeDocumentMoniker": "Handler\\GetAssetDetailHandler.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Handler\\GetAssetDetailHandler.cs",
+              "RelativeToolTip": "Handler\\GetAssetDetailHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:00:43.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\DataAccess\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\AppDBContext.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\DataAccess\\AppDBContext.cs",
+              "RelativeToolTip": "DataAccess\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:11:34.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T06:14:18.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T04:54:05.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssetTreeController.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Controllers\\AssetTreeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AssetTreeController.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Controllers\\AssetTreeController.cs",
+              "RelativeToolTip": "Controllers\\AssetTreeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T04:51:49.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TagValueInput.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Models\\TagValueInput.cs",
+              "RelativeDocumentMoniker": "Models\\TagValueInput.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Models\\TagValueInput.cs",
+              "RelativeToolTip": "Models\\TagValueInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:31:02.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SetAssetDetailValueCommand.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Command\\SetAssetDetailValueCommand.cs",
+              "RelativeDocumentMoniker": "Command\\SetAssetDetailValueCommand.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Command\\SetAssetDetailValueCommand.cs",
+              "RelativeToolTip": "Command\\SetAssetDetailValueCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:23:04.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SetAssetDetailValueHandler.cs",
+              "DocumentMoniker": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Handler\\SetAssetDetailValueHandler.cs",
+              "RelativeDocumentMoniker": "Handler\\SetAssetDetailValueHandler.cs",
+              "ToolTip": "D:\\AssetTree-Tool\\AssetTree-Tool-webapi\\Handler\\SetAssetDetailValueHandler.cs",
+              "RelativeToolTip": "Handler\\SetAssetDetailValueHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:23:00.11Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

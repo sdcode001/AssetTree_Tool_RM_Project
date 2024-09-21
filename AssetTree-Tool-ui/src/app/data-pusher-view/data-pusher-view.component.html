@@ -1,0 +1,27 @@
+<section id="input-board">
+    <h3>Push Data to TagId</h3>
+
+    <form (ngSubmit) = "handelDataPush()" #form>
+        <div id="input-row">
+            <p>
+              <label for="tagId">TagID</label>
+              <input type="number" placeholder="TagId" name="tagId" [(ngModel)]="tagId"/>
+            </p>
+
+            <p>
+                <label for="tagValue">Value</label>
+                <input type="number" placeholder="Value"  name="tagValue" [(ngModel)]="value"/>
+            </p>
+        </div>
+
+        <button  type="submit">
+            @if(isButtonLoading){
+                <div class="loader"></div>
+            }
+            @else {
+                <span>Push</span>
+                <span class="arrow-icon">⌲</span>
+            } 
+        </button>
+    </form>
+</section>

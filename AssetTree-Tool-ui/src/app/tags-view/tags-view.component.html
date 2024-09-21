@@ -1,0 +1,42 @@
+<section class="main-container">
+
+    <div class="header-container">
+        <div class="search-bar">
+            <input id="search-input" type="text" placeholder="Search tag name...." (input)="onSearch()" [(ngModel)]="searchTagName">
+            <button id="search-btn" (click)="onSearch()">Search</button>
+        </div>
+    </div>
+    
+    <section id="tags-list">
+        @if(temp_tags_list.length==0 ){
+            <p>Asset Id not selected Or No related Tags found!</p>
+          }
+          @else {
+            <table>
+                <thead>
+                    <tr id="tr-head">
+                        <th>Tag ID</th>
+                        <th>Tag Name</th>
+                        <th>Tag Type</th>
+                        <th>Unit Symbol</th>   
+                    </tr>
+                </thead>
+                <tbody>
+                    @for(data of temp_tags_list; track data.id){
+                        <tr id="tr-body">
+                            <th class="row-data">{{data.id}}</th>
+                            <th class="row-data">{{data.tag_name}}</th>
+                            <th class="row-data">{{data.tag_type}}</th>
+                            <th class="row-data">{{data.unit_symbol}}</th>
+                        </tr>
+                    }
+                </tbody>
+              </table>
+          }
+    </section>
+
+</section>
+
+
+
+

@@ -1,0 +1,50 @@
+@if(showConfigDialog){
+        <app-db-redis-config (submit_or_cancel)="handelConfigAction($event)"/>
+}
+@else {
+        <app-header [companyName]="assetTree.display_name" (showConfig)="onShowConfig($event)"/>
+
+        <main>
+        <div class="asset-tree-view">
+                @if(isAssetTreeViewLoading){
+                        <div class="loader-container-asset-tree">
+                                <div class="fading-bars">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                </div>
+                        </div>
+                }
+                <app-asset-tree-view [assetTree]="assetTree" (showTags)="onShowTags($event)"/>
+        </div>
+        
+        <div class="tags-list-data-pusher">
+        <div class="tag-list-view">
+                @if(isTagsViewLoading){
+                        <div class="loader-container">
+                                <div class="fading-bars">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                </div>
+                        </div>
+                }
+                <app-tags-view [selected_asset_id]="selected_asset_id" (loading)="onTagsViewLodingStatusChange($event)"/>
+        </div>
+        
+        <div class="data-pusher-view">
+                <app-data-pusher-view />
+        </div>
+        </div>
+        </main>
+}
+
+
+
+   
+
+
