@@ -4,12 +4,11 @@ import { HeaderComponent } from "./header/header.component";
 import { AssetTreeViewComponent } from "./asset-tree-view/asset-tree-view.component";
 import { TagsViewComponent } from "./tags-view/tags-view.component";
 import { DataPusherViewComponent } from "./data-pusher-view/data-pusher-view.component";
-import { Asset_Tree } from './asset-tree-view/asset-tree-view.model';
-import { HttpClient, HttpParams } from "@angular/common/http";
 import { DestroyRef} from "@angular/core";
-import { Db_Redis_Config_Service } from './db-redis-config/db-redis-config.service';
 import { DbRedisConfigComponent } from "./db-redis-config/db-redis-config.component";
-import { ASSET_TREE_API } from '../constants';
+import { Db_Redis_Config_Service } from './db-redis-config/db-redis-config.service';
+import { AssetService } from './asset.service';
+import { Asset_Tree } from './asset-tree-view/asset-tree-view.model';
 
 
 @Component({
@@ -37,7 +36,7 @@ export class AppComponent implements OnInit {
   
   selected_asset_id:number = -1
 
-  constructor(private httpClient: HttpClient, private destroyRef: DestroyRef, private db_redis_config_service: Db_Redis_Config_Service){ }
+  constructor( private destroyRef: DestroyRef, private db_redis_config_service: Db_Redis_Config_Service, private assetService: AssetService){ }
 
 
   ngOnInit(){
@@ -46,17 +45,8 @@ export class AppComponent implements OnInit {
     }
     else{
       this.isAssetTreeViewLoading = true
-      
-      const db_config = this.db_redis_config_service.getDbConfig();
-      
-      let params = new HttpParams()
-      .append('HOST_IP', db_config!.HOST_IP)
-      .append('PORT', db_config!.PORT)
-      .append('DATABASE', db_config!.DATABASE)
-      .append('USERNAME', db_config!.USERNAME)
-      .append('PASSWORD', db_config!.PASSWORD)
  
-      const subscription = this.httpClient.get<Asset_Tree>(ASSET_TREE_API, { params }).subscribe({
+      const subscription = this.assetService.GetAssetTree().subscribe({
        next: (resData) => {
            this.assetTree = resData;
            this.isAssetTreeViewLoading = false

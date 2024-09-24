@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AssetTree-Tool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ec2f0a3bc093173c7e730b7c3acbaa1f4b18d77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ae66d645d0f7efdc0e2eb7b830a41329b1c4133")]
 [assembly: System.Reflection.AssemblyProductAttribute("AssetTree-Tool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AssetTree-Tool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

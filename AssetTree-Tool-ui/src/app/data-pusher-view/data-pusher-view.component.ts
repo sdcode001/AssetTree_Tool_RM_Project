@@ -1,9 +1,7 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { FormsModule } from "@angular/forms";
-import { HttpClient } from "@angular/common/http";
 import { DestroyRef} from "@angular/core";
-import { Db_Redis_Config_Service } from '../db-redis-config/db-redis-config.service';
-import { ASSET_DETAIL_VALUE_API } from '../../constants';
+import { AssetService } from '../asset.service';
 
 
 
@@ -23,21 +21,13 @@ export class DataPusherViewComponent {
 
   isButtonLoading = false;
 
-  constructor(private httpClient: HttpClient, private destroyRef: DestroyRef, private db_redis_config_service: Db_Redis_Config_Service){ }
+  constructor(private destroyRef: DestroyRef, private assetService: AssetService){ }
 
   handelDataPush() {
      if(!this.isButtonLoading && this.tagId!=undefined && this.tagId!=null && this.value!=null && this.value!=undefined){
         this.isButtonLoading = true;
 
-        const redis_config = this.db_redis_config_service.getRedisConfig();
-
-        const redis_server_ip = redis_config?.redis_server_ip;
-        const redis_server_port = redis_config?.redis_server_port;
-        const output_queue_name = redis_config?.output_queue_name;
-
-        const subscription = this.httpClient.post<{message:string}>(ASSET_DETAIL_VALUE_API, 
-          {redis_server_ip: redis_server_ip, redis_server_port: redis_server_port, output_queue_name: output_queue_name, tag_id: this.tagId.toString(), value: this.value}
-        )
+        const subscription = this.assetService.SetTagValue(this.tagId, this.value)
         .subscribe({
           next: (resData) => {
              this.isButtonLoading = false;
