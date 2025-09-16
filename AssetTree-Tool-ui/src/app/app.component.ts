@@ -78,6 +78,7 @@ export class AppComponent implements OnInit {
 
   onShowConfig(action: boolean) {
     this.showConfigDialog = action
+    this.ngOnInit();
   }
   
 }
